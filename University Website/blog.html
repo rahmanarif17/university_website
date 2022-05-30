@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Dublin City University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                     <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+    
+    
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Undergraduate Certificate</h2>
+                <p>Dublin City University's new undergraduate certificates are designed as building blocks for our associate, bachelor and even master-level degree programs. After finishing one of these certificates, you can seamlessly apply the credits you earned to a certificate's subsequent degree programs –– all while earning recognition that you can place on your resume immediately.</p>
+                <br>
+                <h2>Post-Baccalaureate Certificate</h2>
+                <p>In order to pursue a post-baccalaureate certificate at Dublin City  University, you must have first earned a bachelor-level degree. This certificate will consist of bachelor-level courses, but no specific prior knowledge is necessary. So, let's say you graduated with a bachelor in business but want to learn more about legal studies, the post-baccalaureate certificate is perfect for you.</p>
+                <br>
+                <h2>Graduate Certificate</h2>
+                <p>Unlike the post-baccalaureate certificate above, the courses that you'll take in the graduate certificate are graduate-level courses. This means that in order to pursue a graduate certificate at Dublin City University, you must first have received the necessary foundational knowledge by completing a relevant bachelor-level program.</p>
+                <br>
+                <h2>Post-Graduate Certificate</h2>
+                <p>A post-graduate certificate is a certificate that can only be completed after you have already earned a graduate degree. These certificate programs are great for expanding upon the knowledge you learned in your graduate program to help launch or advance your career in a specific area of interest.</p>
+                
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form"
+                    >
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+                
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analyticles</span>
+                    <span>21</span>
+                </div>
+                 <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                 <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                 <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                 <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <section class="footer">
+       <h4>About Us</h4>
+        <p>We are one of the largest, most diverse universities in the Ireland with over 120,000 students in this country,<br>and a further 50,000 studying across 190 countries for a University of DCU degree.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by AR Rahman</p>
+    </section>
+    
+    
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+    
+</body>
+</html>
